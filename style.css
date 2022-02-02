@@ -1,0 +1,121 @@
+/* fonts */
+@font-face {
+  font-family: CodaCaption-ExtraBold;
+  src: url(font/CodaCaption-ExtraBold.ttf);
+}
+
+* {
+  font-family: "roboto", sans-serif;
+  /* box-sizing: border-box; */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: CodaCaption-ExtraBold;
+}
+/* body */
+body {
+  margin: 0;
+}
+
+/* topbar uni-padding for hole website */
+.uni-padding {
+  padding: 0 7%;
+}
+
+/* topbar */
+#topbar {
+  background-color: #576574;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  overflow: auto;
+}
+#tollfree {
+  float: left;
+  color: #fdfdfd;
+  margin: 0;
+  margin-top: 5px;
+}
+#social-icon {
+  float: right;
+}
+.fab {
+  background-color: #fdfdfd;
+  color: #576574;
+  padding: 7px;
+  border-radius: 50%;
+}
+.fa-facebook-f {
+  padding: 7px 10px;
+}
+.fa-whatsapp {
+  padding: 7px 9px;
+}
+.fa-instagram {
+  padding: 7px 9px;
+}
+
+/* logo bar */
+#logobar img {
+  width: 150px;
+  margin: 25px 0;
+}
+
+/* navbar */
+#navbar {
+  background-color: #ee5253;
+}
+#navbar ul li {
+  display: inline-block;
+  padding: 20px 0;
+  padding-right: 35px;
+}
+#navbar ul {
+  margin: 0;
+  padding: 0;
+}
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+/*footer  */
+#imp-link {
+  background-color: #576574;
+  color: #fff;
+  overflow: auto;
+}
+.div33 {
+  width: 33.33%;
+  float: left;
+  padding: 25px 50px;
+  box-sizing: border-box;
+}
+.div33 h3 {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+}
+#footer-menu {
+  list-style-type: none;
+  padding: 0px;
+}
+#footer-menu li {
+  padding-bottom: 10px;
+}
+#footer-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+#footer-menu-container {
+  padding-left: 100px;
+}
+#copyright {
+  background-color: #222f3e;
+  text-align: center;
+  color: #cbcbcb;
+  padding: 10px;
+}
